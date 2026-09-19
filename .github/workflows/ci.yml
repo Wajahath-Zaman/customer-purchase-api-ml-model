@@ -31,4 +31,7 @@ jobs:
         run: |
           pytest
 
+      - name: Build Docker image
+        run: |
+          docker build -t customer-purchase-api
           
