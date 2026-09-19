@@ -33,5 +33,5 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t customer-purchase-api
+          docker build -t customer-purchase-api .
           
